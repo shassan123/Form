@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <html>
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Form</title>
+      <link rel="shortcut icon" href="img/download.png" type="image/x-icon" />
+      <script src="index.js"></script>
+      <link rel="stylesheet" href="test.css" />
+    </head>
+    <body>
+      <div class="show-hide">
+        <form onsubmit="submit1() ;return false" ;>
+          <div id="hide-show">
+            <h1>Fill The Form:</h1>
+            <div class="inputs">
+              <div class="username">
+                <label for="username">Enter Username:</label>
+                <input
+                  type="text"
+                  id="username"
+                  placeholder="username"
+                  required
+                />
+              </div>
+              <div class="email">
+                <label for="email">Email:</label>
+                <input type="Email" id="email" placeholder="Email" required />
+              </div>
+              <div class="password">
+                <label for="password">Password:</label>
+                <input
+                  type="Password"
+                  id="password"
+                  placeholder="Password"
+                  required
+                />
+              </div>
+              <div class="phone">
+                <label for="phone">Enter Your Phone No:</label>
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  required
+                  placeholder="0000-0000-000"
+                />
+              </div>
+            </div>
+            <div class="button">
+              <button id="button" type="submit">Submit</button>
+            </div>
+          </div>
+          <div class="popup">
+            <div class="content">
+              <p class="content-heading">Your form is submitted:</p>
+              <div class="button-close">
+                <button id="close" onclick="closebtn()  " type="button">
+                  Close
+                </button>
+              </div>
+            </div>
+          </div>
+        </form>
+
+        <br /><br />
+        <br />
+        <div id="your-data">
+          <span id="data"></span>
+          <p class="email-show"></p>
+          <p class="password-show"></p>
+          <p class="phone-show"></p>
+        </div>
+      </div>
+    </body>
+  </html>
+</html>
