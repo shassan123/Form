@@ -9,6 +9,9 @@
       <link rel="shortcut icon" href="img/download.png" type="image/x-icon" />
       <script src="form.js"></script>
       <link rel="stylesheet" href="styles.css" />
+      <style>
+        @import url("https://fonts.cdnfonts.com/css/satoshi");
+      </style>
     </head>
     <body>
       <div class="show-hide">
@@ -56,6 +59,7 @@
           <div class="popup">
             <div class="content">
               <p class="content-heading">Your form is submitted:</p>
+              <p class="press">Press close to see entered data</p>
               <div class="button-close">
                 <button id="close" onclick="closebtn()  " type="button">
                   Close
@@ -70,19 +74,19 @@
         <div id="your-data">
           <div class="username-input">
             <p class="entered-username">Your Username:</p>
-            <span id="data">Hassan</span>
+            <span id="data"></span>
           </div>
           <div class="email-input">
             <p class="entered-email">Your Email:</p>
-            <p class="email-show"> Hassan</p>
+            <p class="email-show"></p>
           </div>
           <div class="password-input">
             <p class="entered-password">Your Password:</p>
-            <p class="password-show">hassan</p>
+            <p class="password-show"></p>
           </div>
           <div class="phone-input">
             <p class="entered-phone">Your Phone Number:</p>
-            <p class="phone-show">hassan</p>
+            <p class="phone-show"></p>
           </div>
         </div>
       </div>
