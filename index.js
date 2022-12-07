@@ -10,6 +10,8 @@ function closebtn() {
   document.querySelector(".email-show").innerHTML = email;
   var password = document.getElementById("password").value;
   document.querySelector(".password-show").innerHTML = password;
+  var phone = document.getElementById("phone").value;
+  document.querySelector(".phone-show").innerHTML = phone;
   document.querySelector("#your-data").style.display = "block";
 }
 
