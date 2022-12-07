@@ -15,6 +15,9 @@ function closebtn() {
   document.querySelector("#your-data").style.display = "block";
 }
 
+
+// var show = document.getElementsByClassName('name');
+// console.log("show name",show);
 // document.getElementById("button").addEventListener("click",function(){
 //     document.querySelector(".popup").style.display = "block";
 // })
